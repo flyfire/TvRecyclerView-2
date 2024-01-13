@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -23,6 +23,7 @@ android {
     }
 }
 
+/*
 publish {
     userOrg = 'zhousuqiang'
     groupId = 'com.owen'
@@ -31,6 +32,8 @@ publish {
     desc = 'TvRecyclerView'
     website = 'https://github.com/zhousuqiang/TvRecyclerView'
 }
+*/
+
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
